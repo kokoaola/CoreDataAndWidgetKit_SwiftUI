@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B3C902C2AC525870058BDDD /* CoreDataAndWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C902B2AC525870058BDDD /* CoreDataAndWidgetApp.swift */; };
-		3B3C902E2AC525870058BDDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C902D2AC525870058BDDD /* ContentView.swift */; };
 		3B3C90302AC525880058BDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C902F2AC525880058BDDD /* Assets.xcassets */; };
 		3B3C90332AC525880058BDDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C90322AC525880058BDDD /* Preview Assets.xcassets */; };
 		3B3C90402AC529C10058BDDD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3C903F2AC529C10058BDDD /* WidgetKit.framework */; };
@@ -59,7 +58,6 @@
 /* Begin PBXFileReference section */
 		3B3C90282AC525870058BDDD /* CoreDataAndWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataAndWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3C902B2AC525870058BDDD /* CoreDataAndWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAndWidgetApp.swift; sourceTree = "<group>"; };
-		3B3C902D2AC525870058BDDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B3C902F2AC525880058BDDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3C90322AC525880058BDDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B3C903D2AC529C10058BDDD /* CoredataAndWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoredataAndWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,12 +124,11 @@
 		3B3C902A2AC525870058BDDD /* CoreDataAndWidget */ = {
 			isa = PBXGroup;
 			children = (
-				3B3C90522AC52AE20058BDDD /* Grocery */,
 				3B3C905A2AC52EB80058BDDD /* CoreDataAndWidget.entitlements */,
 				3B3C902B2AC525870058BDDD /* CoreDataAndWidgetApp.swift */,
-				3B3C902D2AC525870058BDDD /* ContentView.swift */,
 				3B3C902F2AC525880058BDDD /* Assets.xcassets */,
 				3B3C90312AC525880058BDDD /* Preview Content */,
+				3B3C90522AC52AE20058BDDD /* Grocery */,
 			);
 			path = CoreDataAndWidget;
 			sourceTree = "<group>";
@@ -292,7 +289,6 @@
 				3B3C90552AC52CA20058BDDD /* Grocery.xcdatamodeld in Sources */,
 				3B3C90652AC548670058BDDD /* GroceryView.swift in Sources */,
 				3B3C90582AC52E630058BDDD /* GroceryConstants.swift in Sources */,
-				3B3C902E2AC525870058BDDD /* ContentView.swift in Sources */,
 				3B3C902C2AC525870058BDDD /* CoreDataAndWidgetApp.swift in Sources */,
 				3B3C905D2AC538650058BDDD /* Colors+Extensions.swift in Sources */,
 			);

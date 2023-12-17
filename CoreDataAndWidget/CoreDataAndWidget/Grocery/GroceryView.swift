@@ -52,7 +52,7 @@ struct GroceryView: View {
             }
             .padding()
             // ナビゲーションタイトルを設定
-            .navigationTitle("DevTechie Grocery")
+            .navigationTitle("Grocery")
             // ナビゲーションバーにツールバーアイテムを追加
             .toolbar {
                 // ナビゲーションバーの右側に配置するボタン

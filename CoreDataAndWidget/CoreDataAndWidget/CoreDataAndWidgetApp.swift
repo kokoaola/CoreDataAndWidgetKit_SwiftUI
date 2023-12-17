@@ -14,8 +14,8 @@ struct CoreDataAndWidgetApp: App {
         //コンテンツビューの直後のウィンドウグループ内で、そこからオブジェクトコンテキストを管理できるようになる
         let managedContext = CoreDataManager.shared.managedObjectContext
         WindowGroup {
-            //作成されたすべてのサブビュー(ContentViewの後続のビュー)にオブジェクト管理コンテキストを直接渡す
-            ContentView()
+            //作成されたすべてのサブビューにオブジェクト管理コンテキストを直接渡す
+            GroceryView()
                 .environment(\.managedObjectContext, managedContext)
         }
     }
